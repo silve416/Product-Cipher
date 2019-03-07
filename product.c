@@ -21,6 +21,9 @@
 #ifndef MODE
 	#define MODE ENCODE
 #endif
+/* Product Cipher created for CS 4821 Computer Security
+ * @author Maxwell Silver
+ */
 
 int vigenere_buffer(char* cipherbuf, unsigned int* keybuf, unsigned int length, unsigned int position, int mode) {
 
